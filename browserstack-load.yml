@@ -1,0 +1,21 @@
+projectName: Default Project Name
+loadTestName: nightwatch_test
+vus: 1
+duration: 5m
+regions:
+  - loadzone: us-east-1
+    percent: 100
+language: ''
+testType: Nightwatch
+fileKey: blu
+files:
+  dependencies: []
+  testConfigs:
+    - nightwatch.conf.js
+loadProfile: constant
+thresholds: []
+testScript: sample-nightwatch-repo.zip
+captureErrorResponses: false
+headless: true
+loadProfileStages: []
+testName: nightwatch_test
