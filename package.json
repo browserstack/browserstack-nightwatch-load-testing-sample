@@ -12,5 +12,8 @@
   "type": "commonjs",
   "devDependencies": {
     "nightwatch": "^3.12.3"
+  },
+  "overrides": {
+    "piscina": "4.9.4"
   }
 }
