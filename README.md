@@ -12,7 +12,13 @@ This repo contains samples for running [Nightwatch](https://nightwatchjs.org/) t
 
 ## Running your tests
 
-- Run the given command to start your test: `npx browserstack-cli load run`.
+- Download the BrowserStack CLI binary for your operating system and place it in the root of this project:
+  - [macOS x86](https://load-api.browserstack.com/api/v1/binary?os=macos&arch=x64)
+  - [macOS ARM](https://load-api.browserstack.com/api/v1/binary?os=macos&arch=arm64)
+  - [Windows x86](https://load-api.browserstack.com/api/v1/binary?os=win&arch=x64)
+  - [Linux x86](https://load-api.browserstack.com/api/v1/binary?os=linux&arch=x64)
+  - [Linux ARM](https://load-api.browserstack.com/api/v1/binary?os=linux&arch=arm64)
+- Run the given command to start your test: `./browserstack-cli load run`.
 
 ## Notes
 * You can view your test results on the [BrowserStack Load Testing dashboard](https://load.browserstack.com)
