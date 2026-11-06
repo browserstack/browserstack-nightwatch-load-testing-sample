@@ -35,7 +35,7 @@ These variables last only for the current terminal session. If the CLI reports a
 
 ## Running your tests
 
-- Download the BrowserStack CLI for your operating system. The download is a zip: extract it and place the `browserstack-cli` binary (`browserstack-cli.exe` on Windows) in the root of this project.
+- Download the BrowserStack CLI for your operating system. The download is a zip: extract it and place the `browserstack-cli` binary (`browserstack-cli.exe` on Windows) in the root of this project. On macOS or Linux, also run `chmod +x browserstack-cli`, since some unzip tools drop the executable bit.
   - [macOS x86](https://load-api.browserstack.com/api/v1/binary?os=macos&arch=x64)
   - [macOS ARM](https://load-api.browserstack.com/api/v1/binary?os=macos&arch=arm64)
   - [Windows x86](https://load-api.browserstack.com/api/v1/binary?os=win&arch=x64)
