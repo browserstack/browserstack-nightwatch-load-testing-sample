@@ -7,7 +7,7 @@ This repo contains samples for running [Nightwatch](https://nightwatchjs.org/) t
 
 * Clone the repo `git clone https://github.com/browserstack/browserstack-nightwatch-load-testing-sample.git`.
 * Set `BROWSERSTACK_USERNAME` and `BROWSERSTACK_ACCESS_KEY` as environment variables with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) 
-* Use Node.js 20.17+ or 22.9+ with npm 11.10 or later (`npm install -g npm@11.10.0`). Older npm ignores the seven-day release-age policy in `.npmrc`.
+* Use Node.js 20 or later. For the seven-day release-age policy in `.npmrc`, also use npm 11.10 or later (`npm install -g npm@11.10.0`, which needs Node.js 20.17+ or 22.9+); older npm ignores that policy.
 * Run `npm i` to install the dependencies.
 * Open the browserstack-load.yml file and update it with the relevant load test configurations.
 
